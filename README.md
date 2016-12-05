@@ -1,5 +1,7 @@
 # PopEvent
 
+English | [中文版](/READMECHS.md)
+
 An elegant way to handling pop gesture recogenizer event.
 
 ## Why PopEvent?
@@ -75,8 +77,7 @@ Drag the `PopEvent` folder to your project.
 
 ## Usage
 
-PopEvent has two functions.
-First, `#import "PopEvent.h"`.
+PopEvent has two functions. First, `#import "PopEvent.h"`.
 
 ### Enable ScreenEdgePan for custom-backButton
 
