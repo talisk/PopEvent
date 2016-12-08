@@ -2,7 +2,7 @@
 
 English | [中文版](/READMECHS.md)
 
-An elegant way to handling pop gesture recogenizer event.
+An elegant way to handle pop gesture recogenizer event.
 
 ## Why PopEvent?
 
