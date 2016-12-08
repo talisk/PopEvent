@@ -4,12 +4,9 @@ Pod::Spec.new do |s|
   s.version      = "0.1.0"
   s.summary      = "An elegant way to handling pop gesture recogenizer event."
 
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "An elegant way to handling pop gesture recogenizer event. Have you ever had such a problem? The screen-edge-pan gesture recognizer is invalid when you custom the `leftNavigationItem`. When you want to make user confirm whether to popToSuperViewController or not, you should prevent the pop and present a `UIAlertController'. Now you can implement them with a little bit of code."
 
   s.homepage     = "https://github.com/talisk/PopEvent"
-  s.screenshots  = "https://github.com/talisk/PopEvent/blob/master/Screenshots/p01.gif", "https://github.com/talisk/PopEvent/blob/master/Screenshots/p02.gif"
-
 
   s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "LICENSE" }
