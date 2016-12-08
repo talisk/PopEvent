@@ -11,13 +11,13 @@
 
 @implementation PopEvent
 
-static NSSet<NSString *> *set = nil;
+static NSMutableSet<NSString *> *set = nil;
 
-+ (NSSet<NSString *> *)eventVCClassNameSet {
++ (NSMutableSet<NSString *> *)eventVCClassNameSet {
     return set;
 }
 
-+ (void)setEventVCClassNameSet:(NSSet<NSString *> *)eventVCClassNameSet {
++ (void)setEventVCClassNameSet:(NSMutableSet<NSString *> *)eventVCClassNameSet {
     set = eventVCClassNameSet;
 }
 

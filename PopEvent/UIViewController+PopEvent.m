@@ -15,8 +15,6 @@
 - (void)viewDidLoadForPopEvent {
     [self viewDidLoadForPopEvent];
     
-//    NSLog(@"viewDidLoadForPopEvent");
-    
     if (!self.navigationController) {
         return;
     }
@@ -48,12 +46,21 @@
     return YES;
 }
 
-- (void)addPopEventSelectorString:(NSString *)selectorString viewControllerNamed:(NSString *)viewControllerName {
+- (void)addPopEventSelector:(SEL)selector viewController:(id)viewController {
+    
+    if (!PopEvent.eventVCClassNameSet) {
+        [PopEvent setEventVCClassNameSet:[[NSMutableSet alloc] init]];
+    }
+    
     UIScreenEdgePanGestureRecognizer *edgePanGestureRecognizer = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self action:NSSelectorFromString(@"edgePanGRdidRecognizeWithPopEventSelectorString:")];
-    [edgePanGestureRecognizer setSelectorString:selectorString];
-    [self.navigationController.interactivePopGestureRecognizer setEnabled:NO];
+    
+    [edgePanGestureRecognizer setSelectorString:NSStringFromSelector(selector)];
+    [PopEvent.eventVCClassNameSet addObject:NSStringFromClass([viewController class])];
+    
     [edgePanGestureRecognizer setEdges:UIRectEdgeLeft];
     [self.view addGestureRecognizer:edgePanGestureRecognizer];
+    
+    [self.navigationController.interactivePopGestureRecognizer setEnabled:NO];
 }
 
 - (void)edgePanGRdidRecognizeWithPopEventSelectorString:(UIScreenEdgePanGestureRecognizer *)sender {

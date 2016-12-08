@@ -11,7 +11,7 @@
 
 @interface PopEvent : NSObject
 
-@property (nonatomic, copy, class) NSSet<NSString *> *eventVCClassNameSet;
+@property (nonatomic, copy, class) NSMutableSet<NSString *> *eventVCClassNameSet;
 
 + (void)restorePopGestureRecognizer;
 

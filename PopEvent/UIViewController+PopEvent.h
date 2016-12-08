@@ -10,6 +10,6 @@
 
 @interface UIViewController (PopEvent) <UIGestureRecognizerDelegate>
 
-- (void)addPopEventSelectorString:(NSString *)selectorString viewControllerNamed:(NSString *)viewControllerName;
+- (void)addPopEventSelector:(SEL)selector viewController:(id)viewController;
 
 @end
