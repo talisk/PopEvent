@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/talisk/PopEvent.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/talisk/PopEvent.git", :tag => "0.2.0" }
 
   s.source_files  = "PopEvent", "PopEvent/*.{h,m}"
 
