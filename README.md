@@ -53,7 +53,7 @@ Now you can implement them with a little bit of code.
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self addPopEventSelectorString:@"popEvent" viewControllerNamed:NSStringFromClass([self class])];
+    [self addPopEventSelector:@selector(popEvent) viewController:self];
 }
 
 - (void)popEvent {
@@ -94,10 +94,10 @@ Add only one line of code into `-application: didFinishLaunchingWithOptions:` in
 Add only one line of code into the ViewController which will be prevented the pop gesture recognizer.
 
 ``` objc
-[self addPopEventSelectorString:@"popEvent" viewControllerNamed:NSStringFromClass([self class])];
+[self addPopEventSelector:@selector(popEvent) viewController:self];
 ```
 
-**The first parameter need to be replaced by the event function name.**
+**The first parameter need to be replaced by the event function selector.**
 
 You can find detail in the Example.
 

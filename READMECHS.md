@@ -53,7 +53,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self addPopEventSelectorString:@"popEvent" viewControllerNamed:NSStringFromClass([self class])];
+    [self addPopEventSelector:@selector(popEvent) viewController:self];
 }
 
 - (void)popEvent {
@@ -94,10 +94,10 @@ PopEvent有两种功能，首先一定是在需要的地方`#import "PopEvent.h"
 仅需要在你想拦截手势的那个ViewController里添加一行代码即可。
 
 ``` objc
-[self addPopEventSelectorString:@"popEvent" viewControllerNamed:NSStringFromClass([self class])];
+[self addPopEventSelector:@selector(popEvent) viewController:self];
 ```
 
-**第一个参数是拦截后需要执行的方法名称字符串，根据需要替换。如果没有需要执行的方法，可以传入空字符串。**
+**第一个参数是拦截后需要执行的方法selector，根据需要替换。**
 
 Example里有详细的使用样例。
 
