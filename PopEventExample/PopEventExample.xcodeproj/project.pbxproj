@@ -18,6 +18,10 @@
 		B12153491DF462F6002656EC /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = B12153481DF462F6002656EC /* ViewController3.m */; };
 		B121534D1DF46397002656EC /* PopEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B121534C1DF46397002656EC /* PopEvent.m */; };
 		B12153501DF46524002656EC /* UIGestureRecognizer+PopEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B121534F1DF46524002656EC /* UIGestureRecognizer+PopEvent.m */; };
+		B1229E811DF9A1C9008AD25E /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = B1229E801DF9A1C9008AD25E /* ViewController4.m */; };
+		B1229E841DF9A1D4008AD25E /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = B1229E831DF9A1D4008AD25E /* ViewController5.m */; };
+		B1229E871DF9BE6D008AD25E /* ViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = B1229E861DF9BE6D008AD25E /* ViewController6.m */; };
+		B1229E8A1DF9BE77008AD25E /* ViewController7.m in Sources */ = {isa = PBXBuildFile; fileRef = B1229E891DF9BE77008AD25E /* ViewController7.m */; };
 		B19166991DF4679F0071DE39 /* UIViewController+PopEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B19166981DF4679F0071DE39 /* UIViewController+PopEvent.m */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +46,14 @@
 		B121534C1DF46397002656EC /* PopEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopEvent.m; sourceTree = "<group>"; };
 		B121534E1DF46524002656EC /* UIGestureRecognizer+PopEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+PopEvent.h"; sourceTree = "<group>"; };
 		B121534F1DF46524002656EC /* UIGestureRecognizer+PopEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+PopEvent.m"; sourceTree = "<group>"; };
+		B1229E7F1DF9A1C9008AD25E /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		B1229E801DF9A1C9008AD25E /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		B1229E821DF9A1D4008AD25E /* ViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
+		B1229E831DF9A1D4008AD25E /* ViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
+		B1229E851DF9BE6D008AD25E /* ViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController6.h; sourceTree = "<group>"; };
+		B1229E861DF9BE6D008AD25E /* ViewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController6.m; sourceTree = "<group>"; };
+		B1229E881DF9BE77008AD25E /* ViewController7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController7.h; sourceTree = "<group>"; };
+		B1229E891DF9BE77008AD25E /* ViewController7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController7.m; sourceTree = "<group>"; };
 		B19166971DF4679F0071DE39 /* UIViewController+PopEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PopEvent.h"; sourceTree = "<group>"; };
 		B19166981DF4679F0071DE39 /* UIViewController+PopEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PopEvent.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +104,14 @@
 				B12153451DF462F0002656EC /* ViewController2.m */,
 				B12153471DF462F6002656EC /* ViewController3.h */,
 				B12153481DF462F6002656EC /* ViewController3.m */,
+				B1229E7F1DF9A1C9008AD25E /* ViewController4.h */,
+				B1229E801DF9A1C9008AD25E /* ViewController4.m */,
+				B1229E821DF9A1D4008AD25E /* ViewController5.h */,
+				B1229E831DF9A1D4008AD25E /* ViewController5.m */,
+				B1229E851DF9BE6D008AD25E /* ViewController6.h */,
+				B1229E861DF9BE6D008AD25E /* ViewController6.m */,
+				B1229E881DF9BE77008AD25E /* ViewController7.h */,
+				B1229E891DF9BE77008AD25E /* ViewController7.m */,
 			);
 			path = PopEventExample;
 			sourceTree = "<group>";
@@ -191,8 +211,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B12153431DF462EA002656EC /* ViewController1.m in Sources */,
+				B1229E811DF9A1C9008AD25E /* ViewController4.m in Sources */,
+				B1229E841DF9A1D4008AD25E /* ViewController5.m in Sources */,
 				B121532C1DF46286002656EC /* AppDelegate.m in Sources */,
+				B1229E8A1DF9BE77008AD25E /* ViewController7.m in Sources */,
 				B12153501DF46524002656EC /* UIGestureRecognizer+PopEvent.m in Sources */,
+				B1229E871DF9BE6D008AD25E /* ViewController6.m in Sources */,
 				B12153491DF462F6002656EC /* ViewController3.m in Sources */,
 				B12153461DF462F0002656EC /* ViewController2.m in Sources */,
 				B121534D1DF46397002656EC /* PopEvent.m in Sources */,

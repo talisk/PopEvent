@@ -17,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self addPopEventSelectorString:@"popEvent" viewControllerNamed:NSStringFromClass([self class])];
+//    [self addPopEventSelectorString:@"popEvent" viewControllerNamed:NSStringFromClass([self class])];
+//    [self addPopEventSelector:@selector(popEvent) viewControllerNamed:NSStringFromClass([self class])];
+    [self addPopEventSelector:@selector(popEvent) viewController:self];
     // Do any additional setup after loading the view.
 }
 
