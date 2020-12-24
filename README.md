@@ -2,14 +2,14 @@
 
 English | [中文版](/READMECHS.md)
 
-An elegant way to handle pop gesture recogenizer event.
+An elegant way to handle pop gesture recognizer event.
 
 ## Why PopEvent?
 
 Have you ever had such a problem? 
 
 * The screen-edge-pan gesture recognizer is invalid when you custom the `leftNavigationItem`.
-* When you want to make user confirm whether to popToSuperViewController or not, you should prevent the pop and present a `UIAlertController'.
+* When you want to make user confirm whether to popToSuperViewController or not, you should prevent the pop and present a `UIAlertController`.
 
 Now you can implement them with a little bit of code.
 
